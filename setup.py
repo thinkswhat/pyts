@@ -6,7 +6,7 @@ from setuptools import find_packages, setup
 
 DISTNAME = 'pyts'
 DESCRIPTION = 'A python package for time series classification'
-with open('README.md') as f:
+with open("README.md", encoding="utf-8") as f:
     LONG_DESCRIPTION = f.read()
 LONG_DESCRIPTION_CONTENT_TYPE = 'text/markdown'
 MAINTAINER = 'Johann Faouzi'
