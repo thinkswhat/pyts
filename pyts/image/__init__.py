@@ -6,5 +6,7 @@ into images.
 from .gaf import GramianAngularField
 from .mtf import MarkovTransitionField
 from .recurrence import RecurrencePlot
+from .rpm import RelativePositionMatrix
+from .ram import RelativeAngleMatrix
 
 __all__ = ['GramianAngularField', 'MarkovTransitionField', 'RecurrencePlot']
